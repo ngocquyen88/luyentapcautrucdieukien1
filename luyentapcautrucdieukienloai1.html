@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện loại 1</title>
+</head>
+<body>
+<h1>Bài 1</h1>
+<label>Nhập vào số thứ nhất:<input type="text" id="number1"/><br/> </label>
+<label><br/>Nhập vào số thứ hai:<input type="text" id="number2"/><br/><br/> </label>
+<button type="button" onclick="bai1()">Kiểm tra</button>
+<label id="bai1"></label>
+<hr/>
+
+<h1>Bài 2</h1>
+<label>Nhập vào tuổi của học sinh:<input type="text" id="tuoi"/><br/> </label>
+<button type="button" onclick="bai2()">Kiểm tra</button>
+<label id="bai2"></label>
+<hr/>
+
+<h1>Bài 3</h1>
+<label>Nhập vào một số bất kỳ:<input type="text" id="sobatky"/><br/> </label>
+<button type="button" onclick="bai3()">Kiểm tra</button>
+<label id="bai3"></label>
+<hr/>
+
+<h1>Bài 4</h1>
+<label>Nhập vào ba số nguyên:
+    <br/><input type="text" id="so1"/><br/>
+    <br/><input type="text" id="so2"/><br/>
+    <br/><input type="text" id="so3"/><br/><br/>
+</label>
+<button type="button" onclick="bai4()">Kiểm tra</button><br/>
+<label id="bai4"></label>
+<hr/>
+
+<!-- Xếp hạng học lực học sinh dựa trên kết quả bài kiểm tra, điểm thi giữa kỳ, cuối kỳ
+Chúng ta sẽ đánh giá học lực học sinh dựa trên điểm trung bình (ĐTB) của bài kiểm tra, điểm giữa kỳ và cuối kỳ.
+Nếu:
+- ĐTB<5 => học lực kém
+- 5<=ĐTB<6.5 => học lực trung bình
+- 6.5<=ĐTB<7.9=> học lực khá
+- ĐTB>=8.0 => học lực giỏi
+-->
+<h1>Bài 5</h1>
+<label>Nhập vào điểm của học sinh:<br/>
+    <br/>Điểm bài kiểm tra:<input type="text" id="diem1"/><br/>
+    <br/>Điểm thi giữa kỳ:<input type="text" id="diem2"/><br/>
+    <br/>Điểm thi cuối kỳ:<input type="text" id="diem3"/><br/><br/>
+</label>
+<button type="button" onclick="bai5()">Kiểm tra</button><br/>
+<label id="bai5"></label>
+<hr/>
+
+<!--Tính hoa hồng nhận được dựa trên doanh số bán hàng:
+Nếu doanh số (DS) bán được một tháng là:
+- 0<DS<150=> nhận được 6.000.000đ + 10% tổng doanh thu
+- DS>=150=> nhận được là 6.000.000đ + 20% tổng doanh thu
+- DS>=300=>nhận được là 6.000đ + 30% tổng doanh thu
+-->
+<h1>Bài 6</h1>
+<p>Lương cơ bản là: 6.000.000đ<br/>
+Giá sản phẩm là: 100.000đ<br/></p>
+<label>Nhập vào doanh số tháng này của bạn: <input type="number" id="doanhso"/></label>
+<button type="button" onclick="bai6()">Kiểm tra hoa hồng nhận được tháng này</button><br/>
+<label id="bai6"></label>
+<hr/>
+
+<h1>Bài 7</h1>
+<p>
+    Giá cước mỗi 1 phút gọi điện là 2.000đ<br/>
+</p>
+<label>Thời gian gọi điện thoại tháng này của bạn là:<input type="number" id="time"/></label>
+<button type="button" onclick="bai7()">Kiểm tra tiền điện thoại tháng này</button><br/>
+<label id="bai7"></label>
+
+
+
+
+</body>
+<script src="js/luyentapcautrucdieukienloai1.js"></script>
+</html>
